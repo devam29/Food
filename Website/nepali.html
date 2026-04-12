@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nepali Cuisine — Flavors United</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,800;1,400;1,700&family=Lato:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="preloader"><div class="preloader-content"><div class="preloader-logo">Flavors United</div><div class="preloader-bar"></div></div></div>
+
+    <header class="header">
+        <div class="header-inner">
+            <a href="index.html" class="logo"><span class="logo-icon">🍽️</span><span class="logo-text">Flavors <span>United</span></span></a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link nav-dropdown-toggle active">Cuisines ▾</a>
+                    <div class="nav-dropdown-menu">
+                        <a href="nepali.html" class="nav-dropdown-item"><span class="flag">🇳🇵</span> Nepali Cuisine</a>
+                        <a href="indian.html" class="nav-dropdown-item"><span class="flag">🇮🇳</span> Indian Cuisine</a>
+                        <a href="greek.html" class="nav-dropdown-item"><span class="flag">🇬🇷</span> Greek Cuisine</a>
+                        <a href="albanian.html" class="nav-dropdown-item"><span class="flag">🇦🇱</span> Albanian Cuisine</a>
+                    </div>
+                </div>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="about.html" class="nav-link">Our Circle</a>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="page-hero">
+        <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1920&h=1080&fit=crop" alt="Nepal Himalayas" class="hero-bg">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-subtitle">🇳🇵 Himalayan Heritage</p>
+            <h1 class="hero-title">Nepali Cuisine</h1>
+            <p class="hero-description">From the foothills of the Himalayas to your plate — discover the bold, aromatic, and deeply soulful flavors of Nepal with Bikalpa Gautam.</p>
+        </div>
+    </section>
+
+    <!-- Breadcrumb -->
+    <div class="container" style="padding-top: 1.5rem;">
+        <div class="breadcrumb">
+            <a href="index.html">Home</a>
+            <span class="separator">/</span>
+            <span>Nepali Cuisine</span>
+        </div>
+    </div>
+
+    <!-- Cuisine Intro -->
+    <section class="section" style="padding-top: 2rem;">
+        <div class="container">
+            <div class="cuisine-intro animate-on-scroll">
+                <div class="cuisine-intro-image">
+                    <img src="https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=800&h=600&fit=crop" alt="Nepali Momo Dumplings">
+                </div>
+                <div class="cuisine-intro-content">
+                    <div class="cuisine-flag">🇳🇵</div>
+                    <h2>The Heart of Himalayan Cooking</h2>
+                    <p style="font-size: 1.05rem; line-height: 1.9;">
+                        Nepali cuisine is a beautiful tapestry woven from the diverse geography and cultures of Nepal. From the Terai plains to the Himalayan peaks, each region contributes unique flavors and techniques.
+                    </p>
+                    <p style="font-size: 1.05rem; line-height: 1.9;">
+                        At its core, Nepali food is about warmth, hospitality, and nourishment. The staple <strong>Dal Bhat</strong> (lentil soup with rice) is eaten twice daily by most Nepalis, while dishes like <strong>Momo</strong> and <strong>Sel Roti</strong> are beloved street foods and festival treats.
+                    </p>
+                    <p style="font-size: 1.05rem; line-height: 1.9;">
+                        Key spices include cumin, turmeric, timur (Sichuan pepper), fenugreek, and mustard oil — giving Nepali food its distinctive, bold character.
+                    </p>
+                    <div class="cuisine-chef">
+                        <span class="chef-avatar">BG</span>
+                        <div>
+                            <strong>Bikalpa Gautam</strong><br>
+                            <span style="font-size: 0.85rem; color: var(--color-text-muted);">Your guide to Nepali flavors</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recipe Grid -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">From Bikalpa's Kitchen</span>
+                <h2>Nepali Recipes</h2>
+                <p>Six authentic recipes that capture the essence of Nepali home cooking.</p>
+                <span class="header-line"></span>
+            </div>
+
+            <div class="recipe-grid">
+                <!-- Dal Bhat -->
+                <div class="recipe-card animate-on-scroll">
+                    <a href="recipes/nepali/dal-bhat.html">
+                        <div class="recipe-card-image">
+                            <img src="https://images.unsplash.com/photo-1596797038530-2c107229654b?w=700&h=500&fit=crop" alt="Dal Bhat">
+                            <span class="recipe-card-badge">Staple</span>
+                            <div class="recipe-card-favorite"><span>🤍</span></div>
+                            <div class="recipe-card-overlay"><span class="recipe-card-time">⏱ 60 min</span></div>
+                        </div>
+                        <div class="recipe-card-body">
+                            <span class="recipe-card-cuisine">Nepali Classic</span>
+                            <h3 class="recipe-card-title">Dal Bhat</h3>
+                            <p class="recipe-card-description">The national dish of Nepal — aromatic lentil soup served over steamed rice with vegetables and pickles. The soul of every Nepali meal.</p>
+                            <div class="recipe-card-meta">
+                                <div class="recipe-card-chef"><span class="recipe-card-chef-avatar">BG</span> Bikalpa</div>
+                                <div class="recipe-card-stats"><span>🔥 Easy</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Momo -->
+                <div class="recipe-card animate-on-scroll">
+                    <a href="recipes/nepali/momo.html">
+                        <div class="recipe-card-image">
+                            <img src="https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=700&h=500&fit=crop" alt="Momo Dumplings">
+                            <span class="recipe-card-badge">Fan Favorite</span>
+                            <div class="recipe-card-favorite"><span>🤍</span></div>
+                            <div class="recipe-card-overlay"><span class="recipe-card-time">⏱ 65 min</span></div>
+                        </div>
+                        <div class="recipe-card-body">
+                            <span class="recipe-card-cuisine">Street Food</span>
+                            <h3 class="recipe-card-title">Momo — Nepali Dumplings</h3>
+                            <p class="recipe-card-description">Delicate steamed dumplings filled with spiced meat or vegetables, served with fiery tomato-sesame chutney.</p>
+                            <div class="recipe-card-meta">
+                                <div class="recipe-card-chef"><span class="recipe-card-chef-avatar">BG</span> Bikalpa</div>
+                                <div class="recipe-card-stats"><span>🔥 Medium</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Sel Roti -->
+                <div class="recipe-card animate-on-scroll">
+                    <a href="recipes/nepali/sel-roti.html">
+                        <div class="recipe-card-image">
+                            <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=700&h=500&fit=crop" alt="Sel Roti">
+                            <span class="recipe-card-badge">Festival</span>
+                            <div class="recipe-card-favorite"><span>🤍</span></div>
+                            <div class="recipe-card-overlay"><span class="recipe-card-time">⏱ 45 min + soak</span></div>
+                        </div>
+                        <div class="recipe-card-body">
+                            <span class="recipe-card-cuisine">Traditional Sweet</span>
+                            <h3 class="recipe-card-title">Sel Roti — Rice Bread Ring</h3>
+                            <p class="recipe-card-description">Crispy, ring-shaped rice bread fried to golden perfection — a festive Nepali treat flavored with cardamom and banana.</p>
+                            <div class="recipe-card-meta">
+                                <div class="recipe-card-chef"><span class="recipe-card-chef-avatar">BG</span> Bikalpa</div>
+                                <div class="recipe-card-stats"><span>🔥 Medium</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Chatamari -->
+                <div class="recipe-card animate-on-scroll">
+                    <a href="recipes/nepali/chatamari.html">
+                        <div class="recipe-card-image">
+                            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=700&h=500&fit=crop" alt="Chatamari">
+                            <span class="recipe-card-badge">Newari</span>
+                            <div class="recipe-card-favorite"><span>🤍</span></div>
+                            <div class="recipe-card-overlay"><span class="recipe-card-time">⏱ 30 min</span></div>
+                        </div>
+                        <div class="recipe-card-body">
+                            <span class="recipe-card-cuisine">Newari Specialty</span>
+                            <h3 class="recipe-card-title">Chatamari — Nepali Pizza</h3>
+                            <p class="recipe-card-description">A thin rice flour crepe topped with minced meat, egg, and fresh herbs — often called the "Nepali Pizza" from Newari cuisine.</p>
+                            <div class="recipe-card-meta">
+                                <div class="recipe-card-chef"><span class="recipe-card-chef-avatar">BG</span> Bikalpa</div>
+                                <div class="recipe-card-stats"><span>🔥 Easy</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Thukpa -->
+                <div class="recipe-card animate-on-scroll">
+                    <a href="recipes/nepali/thukpa.html">
+                        <div class="recipe-card-image">
+                            <img src="https://images.unsplash.com/photo-1569058242567-93de6f36f8eb?w=700&h=500&fit=crop" alt="Thukpa Noodle Soup">
+                            <span class="recipe-card-badge">Comfort</span>
+                            <div class="recipe-card-favorite"><span>🤍</span></div>
+                            <div class="recipe-card-overlay"><span class="recipe-card-time">⏱ 50 min</span></div>
+                        </div>
+                        <div class="recipe-card-body">
+                            <span class="recipe-card-cuisine">Himalayan Comfort</span>
+                            <h3 class="recipe-card-title">Thukpa — Noodle Soup</h3>
+                            <p class="recipe-card-description">A warming Tibetan-Nepali noodle soup packed with vegetables, chicken, and aromatic spices — the perfect cold-weather comfort.</p>
+                            <div class="recipe-card-meta">
+                                <div class="recipe-card-chef"><span class="recipe-card-chef-avatar">BG</span> Bikalpa</div>
+                                <div class="recipe-card-stats"><span>🔥 Easy</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Choyla -->
+                <div class="recipe-card animate-on-scroll">
+                    <a href="recipes/nepali/choyla.html">
+                        <div class="recipe-card-image">
+                            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=700&h=500&fit=crop" alt="Choyla Grilled Meat">
+                            <span class="recipe-card-badge">Newari</span>
+                            <div class="recipe-card-favorite"><span>🤍</span></div>
+                            <div class="recipe-card-overlay"><span class="recipe-card-time">⏱ 35 min</span></div>
+                        </div>
+                        <div class="recipe-card-body">
+                            <span class="recipe-card-cuisine">Newari Delicacy</span>
+                            <h3 class="recipe-card-title">Choyla — Spiced Grilled Meat</h3>
+                            <p class="recipe-card-description">Grilled meat tossed in a fiery marinade of mustard oil, timur pepper, and spices — a bold Newari delicacy meant to be savored.</p>
+                            <div class="recipe-card-meta">
+                                <div class="recipe-card-chef"><span class="recipe-card-chef-avatar">BG</span> Bikalpa</div>
+                                <div class="recipe-card-stats"><span>🔥 Medium</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content animate-on-scroll">
+                <h2>Explore More Cuisines</h2>
+                <p>Discover flavors from India, Greece, and Albania.</p>
+                <div class="cuisine-nav" style="margin-top: 2rem;">
+                    <a href="indian.html" class="cuisine-pill cuisine-pill-india">🇮🇳 Indian</a>
+                    <a href="greek.html" class="cuisine-pill cuisine-pill-greece" style="color: #fff; border-color: rgba(255,255,255,0.3);">🇬🇷 Greek</a>
+                    <a href="albanian.html" class="cuisine-pill cuisine-pill-albania" style="color: #fff; border-color: rgba(255,255,255,0.3);">🇦🇱 Albanian</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="logo-text">Flavors <span style="color: #C5A572">United</span></span>
+                    <p>A celebration of friendship through food. Five friends from Nepal, India, Greece & Albania sharing their most cherished family recipes.</p>
+                </div>
+                <div class="footer-column"><h4>Cuisines</h4><ul><li><a href="nepali.html">🇳🇵 Nepali</a></li><li><a href="indian.html">🇮🇳 Indian</a></li><li><a href="greek.html">🇬🇷 Greek</a></li><li><a href="albanian.html">🇦🇱 Albanian</a></li></ul></div>
+                <div class="footer-column"><h4>Popular</h4><ul><li><a href="recipes/nepali/momo.html">Momo</a></li><li><a href="recipes/indian/butter-chicken.html">Butter Chicken</a></li><li><a href="recipes/greek/moussaka.html">Moussaka</a></li><li><a href="recipes/albanian/tave-kosi.html">Tavë Kosi</a></li></ul></div>
+                <div class="footer-column"><h4>Pages</h4><ul><li><a href="index.html">Home</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="about.html">Our Circle</a></li></ul></div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Flavors United — Made with ❤️ by friends, for friends.</p>
+                <div class="footer-bottom-links"><a href="about.html">About</a><a href="gallery.html">Gallery</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+    <script src="js/main.js"></script>
+</body>
+</html>

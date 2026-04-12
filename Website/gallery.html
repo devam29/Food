@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery — Flavors United</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,800;1,400;1,700&family=Lato:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">Flavors United</div>
+            <div class="preloader-bar"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-inner">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🍽️</span>
+                <span class="logo-text">Flavors <span>United</span></span>
+            </a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link nav-dropdown-toggle">Cuisines ▾</a>
+                    <div class="nav-dropdown-menu">
+                        <a href="nepali.html" class="nav-dropdown-item"><span class="flag">🇳🇵</span> Nepali Cuisine</a>
+                        <a href="indian.html" class="nav-dropdown-item"><span class="flag">🇮🇳</span> Indian Cuisine</a>
+                        <a href="greek.html" class="nav-dropdown-item"><span class="flag">🇬🇷</span> Greek Cuisine</a>
+                        <a href="albanian.html" class="nav-dropdown-item"><span class="flag">🇦🇱</span> Albanian Cuisine</a>
+                    </div>
+                </div>
+                <a href="gallery.html" class="nav-link active">Gallery</a>
+                <a href="about.html" class="nav-link">Our Circle</a>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1920&h=1080&fit=crop" alt="Beautiful food spread" class="hero-bg">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-subtitle">✦ Memories Around the Table ✦</p>
+            <h1 class="hero-title">Our Gallery</h1>
+            <p class="hero-description">Photos from our dinners together, cooking sessions, and the beautiful dishes we've created as friends.</p>
+        </div>
+    </section>
+
+    <!-- Gallery Filters -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Captured Moments</span>
+                <h2>Dinners & Dishes</h2>
+                <p>Every photo tells a story — of a recipe attempted, a flavor discovered, or a night spent laughing around the table.</p>
+                <span class="header-line"></span>
+            </div>
+
+            <div class="filter-bar animate-on-scroll">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="dinner">Dinner Nights</button>
+                <button class="filter-btn" data-filter="nepali">Nepali</button>
+                <button class="filter-btn" data-filter="indian">Indian</button>
+                <button class="filter-btn" data-filter="greek">Greek</button>
+                <button class="filter-btn" data-filter="albanian">Albanian</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-masonry">
+                <div class="gallery-item" data-category="dinner">
+                    <img src="https://images.unsplash.com/photo-1529543544282-ea99407407c1?w=600&h=500&fit=crop" alt="Friends cooking together">
+                    <div class="gallery-item-overlay">
+                        <h4>Saturday Night Cooking</h4>
+                        <p>The whole crew in action</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="nepali">
+                    <img src="https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=600&h=700&fit=crop" alt="Fresh Momos">
+                    <div class="gallery-item-overlay">
+                        <h4>Bikalpa's Famous Momos</h4>
+                        <p>Fresh out of the steamer</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="indian">
+                    <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&h=450&fit=crop" alt="Indian Curry">
+                    <div class="gallery-item-overlay">
+                        <h4>Dev's Butter Chicken</h4>
+                        <p>The recipe that started it all</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="dinner">
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop" alt="Dinner table setup">
+                    <div class="gallery-item-overlay">
+                        <h4>The Grand Table</h4>
+                        <p>Full spread from all four cuisines</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="greek">
+                    <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=600&h=600&fit=crop" alt="Greek Salad">
+                    <div class="gallery-item-overlay">
+                        <h4>Amalia's Greek Salad</h4>
+                        <p>Fresh from the garden</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="indian">
+                    <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=600&h=800&fit=crop" alt="Biryani">
+                    <div class="gallery-item-overlay">
+                        <h4>Abu's Hyderabadi Biryani</h4>
+                        <p>Layers of perfection</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="albanian">
+                    <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&h=500&fit=crop" alt="Albanian Pastry">
+                    <div class="gallery-item-overlay">
+                        <h4>Indrit's Byrek</h4>
+                        <p>Flaky layers of heaven</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="dinner">
+                    <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=600&h=450&fit=crop" alt="Friends at dinner">
+                    <div class="gallery-item-overlay">
+                        <h4>Friday Night Feast</h4>
+                        <p>Good food, better company</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="nepali">
+                    <img src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=600&h=500&fit=crop" alt="Spices">
+                    <div class="gallery-item-overlay">
+                        <h4>The Spice Collection</h4>
+                        <p>Where the magic begins</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="greek">
+                    <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=600&h=700&fit=crop" alt="Mediterranean spread">
+                    <div class="gallery-item-overlay">
+                        <h4>Mediterranean Spread</h4>
+                        <p>Amalia's Sunday special</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="dinner">
+                    <img src="https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=600&h=450&fit=crop" alt="Cooking together">
+                    <div class="gallery-item-overlay">
+                        <h4>Cooking Class Night</h4>
+                        <p>Teaching each other our dishes</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="indian">
+                    <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&h=500&fit=crop" alt="Samosas">
+                    <div class="gallery-item-overlay">
+                        <h4>Samosa Making Day</h4>
+                        <p>100 samosas for the crew</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="albanian">
+                    <img src="https://images.unsplash.com/photo-1574484284002-952d92456975?w=600&h=600&fit=crop" alt="Albanian dish">
+                    <div class="gallery-item-overlay">
+                        <h4>Tavë Kosi Night</h4>
+                        <p>Indrit's national treasure</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="dinner">
+                    <img src="https://images.unsplash.com/photo-1493770348161-369560ae357d?w=600&h=450&fit=crop" alt="Food preparation">
+                    <div class="gallery-item-overlay">
+                        <h4>Prep Time</h4>
+                        <p>All hands on deck</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="nepali">
+                    <img src="https://images.unsplash.com/photo-1569058242567-93de6f36f8eb?w=600&h=500&fit=crop" alt="Noodle soup">
+                    <div class="gallery-item-overlay">
+                        <h4>Thukpa Evening</h4>
+                        <p>Bikalpa's comfort soup</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upload Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Share Your Moments</span>
+                <h2>Upload Dinner Photos</h2>
+                <p>Got photos from our latest cooking session? Upload them here to add to our shared collection.</p>
+                <span class="header-line"></span>
+            </div>
+
+            <div class="upload-area animate-on-scroll">
+                <div class="upload-icon">📸</div>
+                <h3>Drop your photos here</h3>
+                <p>or click to browse your files</p>
+                <span class="btn btn-primary">Choose Photos</span>
+                <input type="file" id="gallery-upload" multiple accept="image/*" style="display: none;">
+                <div class="upload-preview-grid"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <button class="lightbox-close">&times;</button>
+        <button class="lightbox-nav lightbox-prev">‹</button>
+        <button class="lightbox-nav lightbox-next">›</button>
+        <img class="lightbox-image" src="" alt="Gallery image">
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="logo-text">Flavors <span style="color: #C5A572">United</span></span>
+                    <p>A celebration of friendship through food. Five friends from Nepal, India, Greece & Albania sharing their most cherished family recipes.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Cuisines</h4>
+                    <ul>
+                        <li><a href="nepali.html">🇳🇵 Nepali</a></li>
+                        <li><a href="indian.html">🇮🇳 Indian</a></li>
+                        <li><a href="greek.html">🇬🇷 Greek</a></li>
+                        <li><a href="albanian.html">🇦🇱 Albanian</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Popular</h4>
+                    <ul>
+                        <li><a href="recipes/nepali/momo.html">Momo</a></li>
+                        <li><a href="recipes/indian/butter-chicken.html">Butter Chicken</a></li>
+                        <li><a href="recipes/greek/moussaka.html">Moussaka</a></li>
+                        <li><a href="recipes/albanian/tave-kosi.html">Tavë Kosi</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Pages</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="about.html">Our Circle</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Flavors United — Made with ❤️ by friends, for friends.</p>
+                <div class="footer-bottom-links">
+                    <a href="about.html">About</a>
+                    <a href="gallery.html">Gallery</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+    <script src="js/main.js"></script>
+</body>
+</html>
